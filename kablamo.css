@@ -1,0 +1,13 @@
+body {font-family: sans-serif}
+#name {
+ font-size: 50px;
+ padding-top: 2em;
+ text-align: center;
+}
+#social {
+ padding-top: 2em;
+ padding-bottom: 2em;
+ width: 200px;
+ border: solid 1px black;
+ align: center;
+}
