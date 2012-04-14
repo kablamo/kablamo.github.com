@@ -1,13 +1,36 @@
-body {font-family: sans-serif}
+body {
+ font-family: sans;
+ background-color: #eef0f0;
+ color: #f15348;
+ margin: 0;
+}
+a { color: #fe7b53; font-size: 20px }
 #name {
- font-size: 50px;
- padding-top: 2em;
- text-align: center;
+ font-size: 48px;
+ margin-left: auto;
+ margin-right: auto;
+ padding: .5em;
+ padding-left: 2em;
+ padding-right: 1em;
+ background-color: #fff;
+/*
+ -moz-transform:rotate(-25deg); 
+ -moz-transform-origin: bottom right;
+ -webkit-transform: rotate(-25deg);
+ -webkit-transform-origin: bottom right;
+ -o-transform: rotate(-25deg);
+ -o-transform-origin:  bottom right;
+ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+*/
 }
 #social {
- padding-top: 2em;
- padding-bottom: 2em;
- width: 200px;
- border: solid 1px black;
- align: center;
+ font-size: 15px;
+ margin-left: 0em;
+ margin-right: 0em;
+ padding: 2em;
+ padding-top: 0em;
+ padding-left: 6.7em;
+}
+.desc {
+ color: #666;
 }
