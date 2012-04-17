@@ -10,36 +10,31 @@
 }
 body {
  font-family: sans-serif;
- background-color: #fff4b3;
- background-color: #fff;
- background-color: #fe7b53;
  background-color: #eef0f0;
  color: #666;
  margin: 0;
  padding: 0;
 }
-a { color: #fe7b53; font-size: 20px }
-h2 { color: #f15348 }
 #name {
  font-family: pincoya;
- font-size: 260px;
+ font-size: 290px;
  font-weight: normal;
+ line-height: .8em;
  margin-left: auto;
  margin-right: auto;
  margin-top: 0em;
  margin-bottom: 0em;
- padding-top: 0em;
+ padding-top: .08em;
  padding-bottom: 0em;
  padding-left: .2em;
  padding-right: 1em;
- color: #eef0f0;
- color: #f15348;
- color: #bbc0c0;
+ color: #fff;
+ text-shadow: 0px 0px 1px #333;
 }
 #social {
  position: absolute;
  top: 30px;
- left: 400px;
+ left: 415px;
  font-size: 15px;
  margin-left: 0em;
  margin-right: 0em;
@@ -47,13 +42,67 @@ h2 { color: #f15348 }
  padding-top: 0em;
  padding-left: 8em;
 }
+a { 
+ color: #dc62b8; 
+ color: #547e93; 
+ color: #453435; 
+ color: #f15348; 
+ font-size: 20px;
+}
+#h2social { 
+ position: absolute;
+ top: 38px;
+ left: 440px;
+ color: #fe7b53;
+ color: #ff0190;
+ color: #544f45; 
+ color: #b69d7c; 
+ color: #fff4b3; 
+ color: #f15348;
+ color: #ccc;
+ color: #99a0a0;
+ font-size: 30px;
+ -moz-transform: scale(1) rotate(-90deg) translate(0px, 0px) skew(0deg, 0deg);
+ -webkit-transform: scale(1) rotate(-90deg) translate(0px, 0px) skew(0deg, 0deg);
+ -o-transform: scale(1) rotate(-90deg) translate(0px, 0px) skew(0deg, 0deg);
+ -ms-transform: scale(1) rotate(-90deg) translate(0px, 0px) skew(0deg, 0deg);
+ transform: scale(1) rotate(-90deg) translate(0px, 0px) skew(0deg, 0deg);
+}
+#h2projects { 
+ position: absolute;
+ top: 376px;
+ left: 80px;
+ color: #f15348;
+ color: #999;
+ color: #d6c2b8;
+ color: #fe7b53;
+ color: #f15348;
+ color: #453435; 
+ color: #99a0a0;
+ font-size: 30px;
+}
+#h2code { 
+ position: absolute;
+ top: 376px;
+ left: 580px;
+ color: #f15348;
+ color: #fe7b53;
+ color: #999;
+ color: #dc62b8; 
+ color: #f15348;
+ color: #453435; 
+ color: #99a0a0;
+ font-size: 30px;
+}
 #projects {
+ position: absolute;
+ top: 450px;
  font-size: 15px;
- margin-left: 0em;
+ margin-left: .5em;
  margin-right: 0em;
  padding: 2em;
  padding-top: 0em;
- padding-left: 8em;
+ padding-left: 8.3em;
 }
 #description {
  font-size: 14px;
