@@ -93,6 +93,21 @@ a {
  margin: 0em;
  padding: 0em;
 }
+#h2talks { 
+ position: absolute;
+ top: 575px;
+ left: 80px;
+ color: #99a0a0;
+ font-size: 30px;
+}
+#talks {
+ position: absolute;
+ top: 650px;
+ left: 80px;
+ font-size: 15px;
+ margin: 0em;
+ padding: 0em;
+}
 /* some colors i like */
 /*
  color: #f15348;
