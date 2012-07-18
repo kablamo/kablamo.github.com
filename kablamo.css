@@ -95,14 +95,14 @@ a {
 }
 #h2talks { 
  position: absolute;
- top: 575px;
+ top: 525px;
  left: 80px;
  color: #99a0a0;
  font-size: 30px;
 }
 #talks {
  position: absolute;
- top: 650px;
+ top: 600px;
  left: 80px;
  font-size: 15px;
  margin: 0em;
