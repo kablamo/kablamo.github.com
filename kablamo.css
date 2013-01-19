@@ -1,119 +1,80 @@
-@font-face {
- font-family: 'pincoya';
- src: url('pincoyablack-webfont.eot');
- src: url('pincoyablack-webfont.eot?#iefix') format('embedded-opentype'),
-      url('pincoyablack-webfont.woff') format('woff'),
-      url('pincoyablack-webfont.ttf') format('truetype'),
-      url('pincoyablack-webfont.svg#PincoyablackBlack') format('svg');
- font-weight: normal;
- font-style: normal;
+@import url(http://fonts.googleapis.com/css?family=Exo:400,900);
+/* === clearing floats === */
+/* clear floated elements */
+/* http://sonspring.com/journal/clearing-floats */
+html body * span.clear,
+html body * div.clear,
+html body * li.clear,
+html body * dd.clear {
+ background: none;
+ border: 0;
+ clear: both;
+ display: block;
+ float: none;
+ overflow: hidden;
+ font-size: 12px;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ visibility: hidden;
+ width: 0;
+ height: 0;
 }
 body {
  font-family: sans-serif;
- background-color: #eef0f0;
- color: #666;
+ background-color: #0E2430;
+ color: #333;
  margin: 0;
+ margin-left: 8em;
+ margin-right: 8em;
  padding: 0;
 }
 a { 
- color: #f15348; 
+ color: #0088cc; 
  font-size: 20px;
 }
-#name {
- font-family: pincoya;
- font-size: 290px;
- font-weight: normal;
- line-height: .8em;
- margin-left: auto;
- margin-right: auto;
- margin-top: 0em;
- margin-bottom: 0em;
- padding-top: .08em;
- padding-bottom: 0em;
- padding-left: .2em;
- padding-right: 1em;
+a:hover {
+ color: #005580; 
+}
+#nick {
+ float: left;
+ font-family: Exo;
+ font-size: 100px;
+ font-weight: bold;
+ margin: 0;
+ margin-right: 1em;
+}
+.top { 
+ padding: 1em;
+ align: right;
  color: #fff;
- text-shadow: 0px 0px 1px #333;
 }
-#description {
- font-size: 14px;
+.top a { color: #fff }
+#name {
+ background: #E30842;
+ font-family: Exo;
+ font-size: 50px;
+ font-weight: bold;
+ margin: 0;
+ padding: .4em;
+ color: #fff;
 }
-#social {
- position: absolute;
- top: 30px;
- left: 415px;
- font-size: 15px;
- margin-left: 0em;
- margin-right: 0em;
- padding: 2em;
- padding-top: 0em;
- padding-left: 8em;
+.content {
+ background: #fff;
+ padding: 1em;
+ margin-bottom: 2em;
+  -webkit-border-radius: 0 0 6px 6px;
+     -moz-border-radius: 0 0 6px 6px;
+          border-radius: 0 0 6px 6px;
 }
-#h2social { 
- position: absolute;
- top: 38px;
- left: 440px;
- color: #99a0a0;
- font-size: 30px;
- -moz-transform: scale(1) rotate(-90deg) translate(0px, 0px) skew(0deg, 0deg);
- -webkit-transform: scale(1) rotate(-90deg) translate(0px, 0px) skew(0deg, 0deg);
- -o-transform: scale(1) rotate(-90deg) translate(0px, 0px) skew(0deg, 0deg);
- -ms-transform: scale(1) rotate(-90deg) translate(0px, 0px) skew(0deg, 0deg);
- transform: scale(1) rotate(-90deg) translate(0px, 0px) skew(0deg, 0deg);
+.header {
+ color: #333;
+ font-size: 20px;
 }
-#h2projects { 
- position: absolute;
- top: 376px;
- left: 80px;
- color: #99a0a0;
- font-size: 30px;
+.column {
+ float: left;
+ width: 400px;
 }
-#projects {
- position: absolute;
- top: 450px;
- font-size: 15px;
- margin-left: .5em;
- margin-right: 0em;
- padding: 2em;
- padding-top: 0em;
- padding-left: 8.3em;
+.social a {
+ margin-right: 2em;
 }
-#h2code { 
- position: absolute;
- top: 376px;
- left: 690px;
- color: #99a0a0;
- font-size: 30px;
-}
-#code {
- position: absolute;
- top: 450px;
- left: 690px;
- font-size: 15px;
- margin: 0em;
- padding: 0em;
-}
-#h2talks { 
- position: absolute;
- top: 525px;
- left: 80px;
- color: #99a0a0;
- font-size: 30px;
-}
-#talks {
- position: absolute;
- top: 600px;
- left: 80px;
- font-size: 15px;
- margin: 0em;
- padding: 0em;
-}
-/* some colors i like */
-/*
- color: #f15348;
- color: #999;
- color: #d6c2b8;
- color: #fe7b53;
- color: #f15348;
- color: #453435; 
-*/
